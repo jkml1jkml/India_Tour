@@ -1,0 +1,146 @@
+body {
+    padding: 10px;
+    font-family:'Courier New', Courier, monospace;        
+    overflow-x: hidden;
+    }
+
+
+
+    /* for all div center position */
+#center{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/* for background video css */
+
+#back_video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+
+
+
+
+/* for the text " INDIA’S TOP TOURIST ....."
+css */
+
+.heading_text_1{
+    font-size: 45px;
+    font-weight: bold;
+    color: blue;
+    text-shadow: 20px 15px 20px #0400ff;
+    background-color: rgb(181, 228, 231);
+    width: 80%;
+    text-align: center;
+    border-radius: 100px;
+    box-shadow: 30px 30px 20px #000000;
+    padding: 10px;
+}  
+
+
+/* for the text "Explore the Top 10 Touri......" css */
+.heading_text_2{
+    font-size: 35px;
+    color: #ffffff;
+    text-shadow: 10px 10px 30px #ffffff;
+    background-color: rgba(0, 4, 255, 0.445);
+    width: 60%;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 20px 20px 20px #000000;
+    padding: 10px;
+}
+
+
+/* for the text "[Discover Amazing Places by C......"  css  */
+.click_instruction{
+    font-size: 25px;
+    color: rgb(153, 255, 0);
+    text-shadow: 10px 10px 20px #e0f000;
+    
+}
+
+
+/* for hr line css */
+hr{
+    width: 80%;
+    height: 4px;
+    color: #ffffff;
+    background-color: #ffffff;
+    border-radius: 100%;
+}
+
+.developer_img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 20px 30px 20px #000000;
+
+}
+
+.developer_name_text{
+    font-size: 30px;
+    color: #ffffff;
+    background-color: #0400ff57;
+    width: 50%;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 20px 20px 20px #000000;
+    padding: 6px;
+}
+
+
+/* for tour places name css */
+.c{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    color: aliceblue;
+    background-color: #0066ff;
+    text-align: center;
+    width: 90%;
+    box-shadow: 20px 20px 20px #000000;
+    border-radius: 50px;
+    text-shadow: 20px 10px 20px #86ff40;
+}
+
+/* for tour places state nameand city name css */
+.d{
+    font-size: 20px;
+    color: rgb(7, 3, 255);
+    text-shadow: 5px 5px 10px #0400ff;
+    background-color: #75cafc;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 20px 15px 20px black;
+}
+
+
+ .img {    
+    margin-bottom: 31px;
+    width: 455px;
+    height: 225px;
+    border-radius: 100px;
+    box-shadow: 20px 20px 20px #000000;
+
+
+}
+.gap{
+    padding: 10px;
+}
+
+
+

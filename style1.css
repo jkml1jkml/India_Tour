@@ -1,0 +1,133 @@
+body {
+    padding: 10px;
+    font-family:'Courier New', Courier, monospace;        
+    overflow-x: hidden;
+    }
+
+    /* for all div center position */
+#center{
+    display: flex;
+    justify-content: center;
+
+}
+
+/* for back ground img css */
+#img{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    object-fit: cover;
+}
+
+
+/* for other 4 img css in one */
+.b{
+    width: 450px;
+    height: 300px;
+    /* margin: auto; */
+        /* width:1600PX; */
+        /* height: 2000PX; */
+    border-radius: 10%;
+    box-shadow:  20px 20px 20px #000000d5;
+}
+
+/* for  4 img gap  css in one */
+.img_gap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px 50px;
+}
+
+/* for the main heading "place name" css */
+.main_head{
+    /* font-size: 150px; */
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    text-align: center;
+    text-shadow:10px 10px 5px #000000;
+    color: hwb(0 100% 0%);
+    background: rgba(4, 112, 253, 0.741);
+    width: 50%;
+    box-shadow: 40px 40px 50px #070707;
+    border-radius: 90px;
+    margin-bottom: 50px;
+}
+
+
+/* for 2 video css */
+.a{ width: auto;
+    height: 500px;
+    border-radius: 5%;
+    box-shadow:  30px 30px 30px #000000;
+}
+
+/* for 2 video gap css */
+.gap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 350px 350px;
+}
+
+
+/* for details text css */
+.text{
+    margin-top: 70px;
+    font-size:20px;
+    font-weight: bold;
+    color: #010107;
+    background: #ffffff92;
+    width: 70%;
+    box-shadow: 30px 40px 20px #00000096;
+    border-radius: 50px;
+    padding: 50px;
+}
+
+
+/* image heading */
+.img_head{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #1000e9;
+    background-color: #fdfcfcb8;
+    width: 30%;
+    text-align: center;
+    box-shadow:35px 35px 20px #010107;
+    border-radius: 50px;
+}
+
+
+/* map heading */
+.map_head{
+     font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #1000e9;
+    background-color: #fdfcfcb8;
+    width: 75%;
+    padding: 10px;
+    text-align: center;
+    box-shadow:35px 35px 20px #010107;
+    border-radius: 50px;
+}
+
+
+/* sub-heading of map css */
+
+.c{
+    /* font-size:70px; */
+    color:#1000e9;
+    background-color: #fdfcfc;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow:30px 25px 30px #000000;
+}
